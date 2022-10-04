@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/oabouslime/jenkins-maven-cicd'
+                git branch: 'main', url: 'https://github.com/oabouslime/jenkins-maven-cicd'
             }
         }
         stage('Execute Maven') {
